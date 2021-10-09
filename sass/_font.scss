@@ -1,10 +1,25 @@
-/* === === ROBOTO === === */
+/* === === FONTS === === */
 @font-face {
-    font-family: 'Roboto';
-    src: local('Roboto'), local('Roboto-Regular'),
-        url('../fonts/Roboto/Roboto.woff2') format('woff2'), 
-        url('../fonts/Roboto.woff') format('woff'), 
-        url('../fonts/Roboto.ttf') format('truetype');
-    font-weight: 400;
+    font-family: 'NexaBold';
+    src:url('../fonts/NexaBold/NexaBold.ttf.woff') format('woff'),
+        url('../fonts/NexaBold/NexaBold.ttf.svg#NexaBold') format('svg'),
+        url('../fonts/NexaBold/NexaBold.ttf.eot'),
+        url('../fonts/NexaBold/NexaBold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
     font-style: normal;
+}
+
+/* ==== ==== ==== ==== ==== */
+@font-face {
+    font-family: 'Now Regular';
+    src: local('Now Regular'), url('../fonts/Now/Now-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Now Medium';
+    src: local('Now Medium'), url('../fonts/Now/Now-Medium.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
 }

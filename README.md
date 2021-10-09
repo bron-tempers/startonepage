@@ -1,1 +1,1 @@
-## Start Templates (One-Page)
+## DonateX - Landing Page
