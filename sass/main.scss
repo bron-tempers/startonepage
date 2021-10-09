@@ -1,0 +1,15 @@
+/* === === IMPORT === === */
+
+// technical files
+@import "font";
+@import "component/variable";
+@import "component/mixin";
+
+// section style files
+@import "section/page-reboot";
+@import "section/header";
+@import "section/footer";
+@import "section/main";
+
+// media requests files
+@import "media";
